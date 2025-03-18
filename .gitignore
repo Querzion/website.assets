@@ -1,0 +1,121 @@
+# Ignore Node.js dependencies and package managers
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore environment and secrets files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+logs/
+*.log
+*.log.*
+
+# Ignore build and output directories
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.vite/
+.cache/
+.cache-loader/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+.vs/
+*.suo
+*.ntvs*
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore macOS and Windows system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Ignore Git-specific files
+.git/
+.gitmodules
+.gitattributes
+.gitkeep
+.gitconfig
+.git-lfs
+*.orig
+
+# Ignore temporary and backup files
+*.~*
+*.lock
+*.pid
+*.seed
+*.old
+*.rej
+
+# Ignore testing and coverage files
+junit.xml
+test-results/
+.nyc_output/
+jest/
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+
+# Ignore serverless & cloud builds
+.serverless/
+.firebase/
+.netlify/
+vercel/
+
+# Ignore Vagrant files
+.vagrant/
+
+# Ignore Python virtual environment and compiled files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Rust & Cargo files
+/target/
+Cargo.lock
+
+# Ignore Go build artifacts
+/bin/
+/pkg/
+/out/
+
+# Ignore JetBrains IDE files (WebStorm, IntelliJ, etc.)
+*.iml
+
+# Ignore system-specific debug and object files
+bin/
+obj/
+
+# Keep important files
+!*.sln  # Keep Visual Studio solution files
+!Dockerfile  # Keep Docker configuration
+!docker-compose.yml  # Keep Docker Compose configuration
+!public/  # Keep public assets in version control
+
+# Keep debug folder but allow tracking specific files
+debug/
+!debug/README.md
+!debug/config.json
+
+# Keep the .gitignore file itself
+!.gitignore
